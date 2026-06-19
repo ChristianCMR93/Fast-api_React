@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
 }
 body{
     font-family:'Times New Roman', Times, serif;
-}
-.navbar{    
-    background-color:black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    background: #0f172a;
+    
 }

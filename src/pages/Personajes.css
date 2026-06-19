@@ -1,0 +1,74 @@
+.personaje {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #475569;    
+    border-radius: 20px;
+    background: #334155;
+    cursor: pointer;
+
+    
+    transition:  transform 0.3s ease,box-shadow 0.3s ease;
+                
+                
+    
+}
+
+
+
+.personaje:hover {
+    background:#3f4f66;
+    transform: scale(1.10) ;
+    box-shadow: 0 0 10px rgba(151, 206, 76, 0.3), 0 0 20px rgba(151, 206, 76, 0.2);
+    
+}
+
+
+.personaje img{
+    
+    width: 230px;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+    
+    border-radius: 16px;
+
+    transition: transform 0.3s ease;
+    
+}
+
+
+
+.personaje:hover img{
+
+    transform: scale(1.03);
+}
+
+.personaje h2{
+    color: #f8fafc;
+    transition: color 0.3s ease;
+}
+
+.personaje:hover h2{
+    color: #97ce4c;
+}
+
+.personaje p{
+    color: #cbd5e1;
+    transition: color 0.3s ease;
+}
+
+.personaje:hover p{
+    color: #f8fafc;
+}
+
+.contenedor-personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    background: #0f172a;
+    padding: 50px;
+    
+}
+
+
